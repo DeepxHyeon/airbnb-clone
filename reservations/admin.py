@@ -13,8 +13,8 @@ class ReservationAdmin(admin.ModelAdmin):
         "check_in",
         "check_out",
         "guest",
-        "in_progress",
         "is_finished",
+        "in_progress",
     )
 
-    list_filter = ("status", "in_progress")
+    list_filter = ("status",)
